@@ -1,0 +1,41 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:linear-gradient(black,#0000),
+    url(picture/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px 970px;
+    font-size: 14px;
+ }
+ .box{ width: 900px;
+    float: right; 
+    border: 1px solid none;  }
+
+.box ul li{
+    width: 200px;
+    float: left;
+    margin: 10px auto;
+    text-align:center;
+    border-radius: 30px;
+    
+}   
+
+.box ul li a{ text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.box ul li:hover{ background-color: darkorange;}
+.box ul li a:hover{ color:white;} 
+.sent{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+.check{
+    position: absolute;
+    top: 53%;
+    left: 43%;
+    padding-left: -30px;
+    color: rgb(255, 255, 255);
+}
